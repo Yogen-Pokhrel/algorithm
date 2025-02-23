@@ -1,3 +1,5 @@
+package Lab1;
+
 public class GCDAlgorithm {
     public static int gcd(int m, int n) {
         return findGCD(m, n, Math.min(m, n));
